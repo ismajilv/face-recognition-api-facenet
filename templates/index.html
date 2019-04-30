@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Test task by Veriff</h1>
+<h3>Browse the image file to upload and get the face boxes</h3>
+
+<form method="POST" action="/upload" enctype="multipart/form-data" target="_blank">
+    Minimum size of face: <input type="text" name="minsize" value=40><br>
+    Three steps’s threshold: <input type="text" name="threshold" value="0.6, 0.7, 0.7"><br>
+    Scale factor: <input type="text" name="factor" value=0.7><br>
+    <br/>
+    <br/>
+    <label for="inputFile">Browse the image</label>
+    <br/>
+    <br/>
+    <input type="file" name="inputFile" accept="image/*">
+    <button type="submit" name="submit_button" class="btn btn-default" value="json">To_Json</button>
+    <button type="submit" name="submit_button" class="btn btn-default" value="image">To_Bounded_Box_Image</button>
+</form>
+</body>
+</html> 
