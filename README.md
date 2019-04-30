@@ -1,3 +1,4 @@
+
 # VERIFF!
 
 This is the implementation of Veriff's test task named build and evaluate a face detection microservice. 
@@ -27,11 +28,15 @@ You can start the application as a container or by running:
 ```
 $ python app.py
 ```
-To run container, first load the fdapp-docker.tar with:
+To run container, first download archived docker from [https://drive.google.com/open?id=1I_IrAmva0G-gyeQiSSObS4hCv9-HwM9s] to desired location, then load the fdapp-docker.tar with:
 ```
 $ docker load < fdapp-docker.tar
 ```
-and then if you run:
+or run:
+```
+$ docker build --tag fdapp .
+```
+ and then if you run:
 ```
 $ docker images
 ```
@@ -90,5 +95,7 @@ Example response with To_Json button:
   "status": "Succeeded"
 }
 ```
+## Overview
+The solution seems working, improvement areas would be showing accuracy next to face box, and images are handled without saving in the server bystring to io, io to string and saving in the buffer. I wonder if I saved in the server would I get response faster? Getting image response takes approximately 2 seconds which could be improved if proper image conversion found.
 
-
+Thanks!
