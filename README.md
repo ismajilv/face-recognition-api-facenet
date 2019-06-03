@@ -4,7 +4,7 @@
 This is the implementation of building and evaluating a face detection microservice. 
 
 ### Where to get it
-The source code is currently hosted on GitHub at: [https://github.com/ismajilv/veriff_test]
+The source code is currently hosted on GitHub at: [https://github.com/ismajilv/face_recognition_api_facenet]
 
 ### Usage
 Clone repository:
