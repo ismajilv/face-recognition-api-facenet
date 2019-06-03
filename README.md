@@ -1,7 +1,7 @@
 
-# VERIFF!
+# Face Recognition API!
 
-This is the implementation of Veriff's test task named build and evaluate a face detection microservice. 
+This is the implementation of building and evaluating a face detection microservice. 
 
 ### Where to get it
 The source code is currently hosted on GitHub at: [https://github.com/ismajilv/veriff_test]
