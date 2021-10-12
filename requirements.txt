@@ -21,7 +21,7 @@ markupsafe==1.1.1
 matplotlib==3.0.3
 mock==2.0.0
 numpy==1.16.1
-opencv-python==4.1.0.25
+opencv-python==4.2.0.32
 pbr==5.2.0
 pillow==6.0.0
 pipfile==0.0.2
